@@ -1,4 +1,5 @@
 require 'pry'
+
 class Artist
   attr_accessor :name, :song_count
 
@@ -16,7 +17,7 @@ class Artist
     song.artist = self
   end
 
-  def add_song_by_name(name)
+  def add_song_by_name(title)
     song = Song.new(name)
     @songs << song
     song.artist = self
