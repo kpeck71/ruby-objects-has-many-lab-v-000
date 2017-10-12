@@ -6,7 +6,7 @@ class Post
   end
 
   def author_name
-    self.author.instance_variables
+    self.author.get_instance_variables
     self.author.name
   end
 
