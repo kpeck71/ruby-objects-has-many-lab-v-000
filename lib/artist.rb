@@ -23,10 +23,9 @@ class Artist
     song.artist = self
   end
 
-binding.pry
-
   def self.song_count
-    #@songs.
+    self.map do |artist,song|
+
   end
 
 end
