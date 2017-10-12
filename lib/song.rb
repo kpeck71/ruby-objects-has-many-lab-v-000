@@ -8,7 +8,8 @@ class Song
   def artist_name
     self.artist.name
     if self.artist.empty?
-
+      nil
+    end
   end
 
 
