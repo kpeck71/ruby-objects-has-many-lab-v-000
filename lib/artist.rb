@@ -24,8 +24,8 @@ class Artist
   end
 
   def self.song_count(song)
-    song.map do |artist,song|
-      song.count
+    song.map do |a,s|
+      s.count
     end
 
   end
