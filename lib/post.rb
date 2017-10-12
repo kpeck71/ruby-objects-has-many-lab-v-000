@@ -6,8 +6,9 @@ class Post
   end
 
   def author_name
-    self.author.include?(name)
-    self.author.name
+    if self.author.include?(name)
+      self.author.name
+    end
   end
 
 end
