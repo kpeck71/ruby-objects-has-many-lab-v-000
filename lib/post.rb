@@ -6,8 +6,11 @@ class Post
   end
 
   def author_name
-    self.author.name
-    #self.author.instance_variable_get("@#{name}")
+    if self.author
+      self.author.name
+    else
+      nil
+    end
   end
 
 end
