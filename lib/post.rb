@@ -5,7 +5,7 @@ class Post
     @title = title
   end
 
-  def
+  def post
 
 
 end
