@@ -6,9 +6,7 @@ class Post
   end
 
   def author_name
-    if self.author.detect?(name)
-      self.author.name
-    end
+    self.author.name
   end
 
 end
